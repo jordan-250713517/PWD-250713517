@@ -1,0 +1,29 @@
+h2 {
+    color: #3498db;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: square;
+    background-color: #ffffff;
+    padding: 15px 30px;
+}
+
+li {
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
