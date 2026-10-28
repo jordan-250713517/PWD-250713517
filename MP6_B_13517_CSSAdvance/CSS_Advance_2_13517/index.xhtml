@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Pendaftaran Workshop Pemrograman</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Registrasi Workshop</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informasi Peserta</legend>
+                <div class="form-group">
+                    <label for="nama_peserta">Nama Lengkap:</label>
+                    <input type="text" id="nama_peserta" name="nama_peserta" required="required" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email:</label>
+                    <input type="text" id="email" name="email" required="required" />
+                </div>
+                <div class="form-group">
+                    <label for="institusi">Asal Instansi:</label>
+                    <input type="text" id="institusi" name="institusi" required="required" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Pilihan Sesi Workshop</legend>
+                <div class="form-group">
+                    <label for="sesi">Pilih Topik:</label>
+                    <select id="sesi" name="sesi">
+                        <option value="web_dev">Web Development Lanjut</option>
+                        <option value="mobile_dev">Mobile App Development</option>
+                        <option value="data_science">Data Science Dasar</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Metode Kehadiran:</label>
+                    <label class="radio-label"><input type="radio" name="metode" value="offline" /> Offline (Hadir di Ruangan)</label>
+                    <label class="radio-label"><input type="radio" name="metode" value="online" /> Online (Zoom Meeting)</label>
+                </div>
+            </fieldset>
+            <div class="button-group">
+                <input type="submit" value="Daftar Sekarang" />
+                <input type="reset" value="Reset Formulir" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

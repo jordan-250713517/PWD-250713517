@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Pendaftaran Anggota UKM WEB Community UAJY </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Pendaftaran UKM WEB Community Anggota Baru</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Data Diri Calon Anggota</legend>
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <input type="text" id="nama" name="nama" />
+                </div>
+                <div class="form-group">
+                    <label for="nim">Nomor Induk Mahasiswa:</label>
+                    <input type="text" id="nim" name="nim" />
+                </div>
+                <div class="form-group">
+                    <label for="prodi">Program Studi:</label>
+                    <select id="prodi" name="prodi">
+                        <option value="informatika">Informatika</option>
+                        <option value="sistem_informasi">Sistem Informasi</option>
+                        <option value="teknik_industri">Teknik Industri</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Jenis Kelamin:</label>
+                    <label class="radio-label"><input type="radio" name="gender" value="l" /> Laki-laki</label>
+                    <label class="radio-label"><input type="radio" name="gender" value="p" /> Perempuan</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Pilihan Divisi</legend>
+                <div class="form-group">
+                    <label for="divisi">Pilih Divisi:</label>
+                    <select id="divisi" name="divisi">
+                        <option value="pemrograman">Divisi Pemrograman</option>
+                        <option value="jaringan">Divisi Jaringan Komputer</option>
+                        <option value="multimedia">Divisi Multimedia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="alasan">Motivasi Bergabung:</label>
+                    <textarea id="alasan" name="alasan" rows="4" cols="50"></textarea>
+                </div>
+            </fieldset>
+            <div class="button-group">
+                <input type="submit" value="Kirim Pendaftaran" />
+                <input type="reset" value="Batal" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
